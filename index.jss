@@ -8,5 +8,5 @@ function processRequest() {
 
 // called once by the server for each file being uploaded.  It returns the path to which the file is to be saved.
 function getUploadPath(fileName) {
-   return system.user.homeFolder + "/Uploads/" + fileName;
+   return system.user.homeFolder + "/Upload/Files/" + fileName;
 }
